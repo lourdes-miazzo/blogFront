@@ -1,0 +1,56 @@
+.login{
+    min-height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255,255,255, 0.5),rgba(255,255,255, 0.5)), url("https://firebasestorage.googleapis.com/v0/b/ecommerceart-fb0d5.appspot.com/o/retrosupply-jLwVAUtLOAQ-unsplash.jpg?alt=media&token=ee90097e-93ed-4704-8de6-79965fb26a0d");
+    background-size: cover;
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginFom > label{
+    margin: 10px 0;
+}
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.loginTitle{
+    font-size: 50px;
+}
+.loginButton{
+    background-color:  teal; 
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+.loginButton:disabled{
+    background-color: gray;
+    cursor: not-allowed;
+}
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color:lightcoral;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.loginError{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 10px;
+}

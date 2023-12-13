@@ -1,0 +1,80 @@
+.write{
+    min-height: 92vh;
+    height: 92vh;
+    padding-top: 50px;
+    max-width: 100%;
+    width: 100vw;
+}
+.writeForm{
+position: relative;
+
+}
+.writeImg{
+    margin-left: 150px;
+    width: 70vw;
+    border-radius: 10px;
+    height: 250px;
+    object-fit: cover;
+}
+.writeFormGroup{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.writeIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(97, 97, 97);
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.writeInput{
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+}
+.writeInput:focus{
+    outline: none;
+}
+.writeText{
+    font-size: 20px;
+    height: 100vh;
+}
+.writeSubmit{
+    position: absolute;
+    top: 20px;
+    right: 235px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.writeCategoriesInput{
+    display: flex;
+    margin-top: 20px;
+    background-color:rgb(239, 248, 247);
+    padding: 10px;
+    border-radius: 10px;
+}
+.writeIndivCat{
+    margin-left: 19px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+.titleCat{
+    font-size: 20px;
+    color: gray;
+    margin-left: 20px;
+}
