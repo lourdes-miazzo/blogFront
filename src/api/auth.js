@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API= "http://localhost:8080"
+const API= "https://shareyourideas-9pz3.onrender.com"
 
 
 export const homeRes = async (search) => {
