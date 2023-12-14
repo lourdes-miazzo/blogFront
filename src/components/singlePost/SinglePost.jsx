@@ -61,7 +61,7 @@ export const SinglePost = () => {
             {
                 single.photo
                 &&
-                <img src={`http://localhost:8080/images/${single.photo}`} alt="" className="singlePostImg"/> 
+                <img src={`https://shareyourideas-9pz3.onrender.com/images/${single.photo}`} alt="" className="singlePostImg"/> 
             }
             {
                 updateMode
