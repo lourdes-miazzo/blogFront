@@ -32,7 +32,7 @@ const NavBar = () => {
                     {
                     user 
                     ? 
-                    (user.profilePic ? (<Link to="/user/settings" style={{textDecoration:"none", color: "inherit"}}><img src={`http://localhost:8080/images/${user.profilePic}`} className='topImg'/></Link>) : (<Link to="/user/settings" style={{textDecoration:"none", color: "inherit"}}><i className="fa-solid fa-circle-user userUndefinedTopImg"></i></Link>)) 
+                    (user.profilePic ? (<Link to="/user/settings" style={{textDecoration:"none", color: "inherit"}}><img src={`https://shareyourideas-9pz3.onrender.com/${user.profilePic}`} className='topImg'/></Link>) : (<Link to="/user/settings" style={{textDecoration:"none", color: "inherit"}}><i className="fa-solid fa-circle-user userUndefinedTopImg"></i></Link>)) 
                     : 
                     (<> <ul className="topList">
                             <li className='topListItem'><Link to="/auth/login" style={{textDecoration:"none", color: "inherit"}}>LOGIN</Link></li>
