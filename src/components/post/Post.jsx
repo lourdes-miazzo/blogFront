@@ -13,7 +13,7 @@ const Post = ({post}) => {
             photo
             &&  
             <div className="imgPost">
-                <img src={`http://localhost:8080/images/${photo}`} className='img' alt="Post"/>
+                <img src={`https://shareyourideas-9pz3.onrender.com/images/${photo}`} className='img' alt="Post"/>
             </div>
         }
        
